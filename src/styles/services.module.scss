@@ -1,0 +1,46 @@
+.servicesContainer {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+    width: 100%;
+    max-width: 1100px;
+    color: var(--text-secondary);
+    font-size: 1.31rem;
+  }
+}
+
+.servicesContainer {
+  margin-bottom: 3rem;
+
+  .servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .servicesItems {
+    width: 350px;
+    height: 354px;
+    background-color: var(--background);
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 1.25rem;
+    padding: 2rem;
+    margin-top: 2rem;
+
+    img {
+      margin-bottom: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      line-height: 56px;
+    }
+
+    p {
+      text-align: left;
+      font-size: 1rem;
+      line-height: 1.8rem;
+    }
+  }
+}

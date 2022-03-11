@@ -1,20 +1,11 @@
 .content {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-top: 5.25rem;
-
-  width: 100%;
 }
 
 .mainHeading {
   margin: -4rem 6.81rem 0 0;
-
-  h1 {
-    color: var(--text-heading);
-    font-size: 3rem;
-    max-width: 427px;
-  }
 
   p {
     margin-top: 1.51rem;
