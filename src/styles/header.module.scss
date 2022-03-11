@@ -1,0 +1,15 @@
+.headerNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3.5rem;
+  
+  max-height: 40px;
+  
+  li {
+      display: inline;
+      margin: 0 2.5rem;
+      font-size: 1.12rem;
+      color: var(--text-secondary);
+  }
+}

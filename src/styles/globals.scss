@@ -1,0 +1,35 @@
+:root {
+    --background: #ffffff;
+    
+    --text-secondary: #7D7987;
+    --text-heading: #1F1534;
+    
+    --blue: #458FF6;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--background);
+    font-family: "Mulish", sans-serif;
+}
+
+h1, h2, h3, button {
+    font-weight: 700;
+}
+
+button {
+    border: 0;
+    background-color: var(--blue);
+    color: var(--background);
+    
+    width: 200px;
+    height: 56px;
+    
+    font-size: 1.12rem;
+    border-radius: 3.5rem;
+}
