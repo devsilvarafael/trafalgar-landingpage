@@ -4,8 +4,8 @@ import logoIcon from "../../assets/icons/logo.svg";
 
 export const Header = (): JSX.Element => {
   return (
-    <div className={styles.headerNav}>
-      <img src={logoIcon} alt="" />
+    <header className={styles.headerNav}>
+      <img src={logoIcon} alt="Trafalgar logo" />
       <div>
         <ul>
             <li><strong>Home</strong></li>
@@ -15,6 +15,6 @@ export const Header = (): JSX.Element => {
             <li>About us</li>
         </ul>
       </div>
-    </div>
+    </header>
   );
 };

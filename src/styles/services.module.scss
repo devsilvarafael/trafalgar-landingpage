@@ -1,6 +1,9 @@
 .servicesContainer {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 3rem;
 
   p {
     text-align: center;
@@ -11,36 +14,50 @@
   }
 }
 
-.servicesContainer {
-  margin-bottom: 3rem;
+.introduction {
+  margin-top: 12rem;
+  text-align: center;
 
-  .servicesGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  p {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.34rem;
+
+  margin-bottom: 4.31rem;
+}
+
+.servicesItems {
+  width: 350px;
+  height: 354px;
+
+  background-color: var(--background);
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 1.25rem;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 3.93rem 3.25rem 2.93rem 2.25rem;
+  margin-top: 2.31rem;
+
+  .Icons {
+    height: 94px;
   }
 
-  .servicesItems {
-    width: 350px;
-    height: 354px;
-    background-color: var(--background);
-    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-    border-radius: 1.25rem;
-    padding: 2rem;
-    margin-top: 2rem;
+  h2 {
+    font-size: 1.5rem;
+    line-height: 56px;
+  }
 
-    img {
-      margin-bottom: 1.5rem;
-    }
-
-    h2 {
-      font-size: 1.5rem;
-      line-height: 56px;
-    }
-
-    p {
-      text-align: left;
-      font-size: 1rem;
-      line-height: 1.8rem;
-    }
+  p {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.8rem;
   }
 }
