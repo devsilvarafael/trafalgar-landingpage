@@ -7,9 +7,16 @@ interface ButtonProps {
   colorTx: string;
 }
 
-export const Button = ({ text, colorBg, colorTx }: ButtonProps): JSX.Element => {
+export const Button = ({
+  text,
+  colorBg,
+  colorTx,
+}: ButtonProps): JSX.Element => {
   return (
-    <button className={styles.btn} style={{ background: colorBg, color: colorTx }}>
+    <button
+      className={styles.btn}
+      style={{ background: colorBg, color: colorTx }}
+    >
       {text}
     </button>
   );

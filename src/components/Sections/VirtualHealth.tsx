@@ -8,12 +8,12 @@ import { Button } from "../Commons/Button";
 export const VirtualHealth = (): JSX.Element => {
   return (
     <section className={styles.container}>
-      <div className={styles.texts}>
+      <div className={styles.content}>
         <Heading
           title="Virtual healthcare for you"
           description="Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone"
         />
-        
+
         <Button text="Consult today" colorBg="#458FF6" colorTx="#fff" />
       </div>
 

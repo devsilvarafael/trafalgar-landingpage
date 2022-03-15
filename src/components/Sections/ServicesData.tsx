@@ -5,7 +5,7 @@ import { ReactComponent as ExamIcon } from "../../assets/icons/card2.svg";
 import { ReactComponent as BagIcon } from "../../assets/icons/maleta.svg";
 import { ReactComponent as HealthIcon } from "../../assets/icons/card3.svg";
 
-import styles from '../../styles/services.module.scss';
+import styles from "../../styles/services.module.scss";
 
 export const servicesData = [
   {
@@ -20,7 +20,7 @@ export const servicesData = [
     title: "Online pharmacy",
     description:
       "Buy  your medicines with our mobile application with a simple delivery system",
-    icon: <BottleIcon className={styles.bottleIcon}/>,
+    icon: <BottleIcon className={styles.bottleIcon} />,
   },
   {
     id: 2,

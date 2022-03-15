@@ -1,5 +1,6 @@
 import styles from "../../styles/services.module.scss";
 import { Button } from "../Commons/Button";
+import { Divider } from "../Commons/Divider";
 
 import { servicesData } from "./ServicesData";
 
@@ -8,7 +9,7 @@ export const Services = (): JSX.Element => {
     <section className={styles.servicesContainer}>
       <div className={styles.introduction}>
         <h2>Our services</h2>
-
+        <Divider />
         <p>
           We provide to you the best choiches for you. Adjust it to your health
           needs and make sure your undergo treatment with our highly qualified

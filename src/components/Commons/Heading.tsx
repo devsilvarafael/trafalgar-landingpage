@@ -1,5 +1,4 @@
 import styles from "../../styles/Commons/heading.module.scss";
-import { Button } from "./Button";
 interface IHeading {
   title: string;
   description: string;

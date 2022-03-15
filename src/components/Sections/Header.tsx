@@ -8,11 +8,13 @@ export const Header = (): JSX.Element => {
       <img src={logoIcon} alt="Trafalgar logo" />
       <div>
         <ul>
-            <li><strong>Home</strong></li>
-            <li>Find a doctor</li>
-            <li>Apps</li>
-            <li>Testimonials</li>
-            <li>About us</li>
+          <li>
+            <strong>Home</strong>
+          </li>
+          <li>Find a doctor</li>
+          <li>Apps</li>
+          <li>Testimonials</li>
+          <li>About us</li>
         </ul>
       </div>
     </header>

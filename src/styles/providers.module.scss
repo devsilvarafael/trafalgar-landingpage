@@ -1,7 +1,15 @@
 .container {
-    display: flex;
+  display: flex;
+  
+  .content {
+    margin-top: 2rem;
     
-    img {
-        margin-right: 6rem;
+    p {
+      margin-bottom: 3rem;
     }
+  }
+
+  img {
+    margin-right: 7rem;
+  }
 }
