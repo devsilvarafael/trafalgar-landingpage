@@ -7,6 +7,7 @@
   
   img {
     margin-right: 20rem;
+    cursor: pointer;
   }
   
   li {
@@ -14,5 +15,6 @@
       margin: 0 2.5rem;
       font-size: 1.12rem;
       color: var(--text-secondary);
+      cursor: pointer;
   }
 }

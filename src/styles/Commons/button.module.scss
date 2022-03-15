@@ -1,13 +1,10 @@
 .btn {
-    border: 0;
+    border: 1px solid #458FF6;
     font-size: 1.12rem;
     border-radius: 3.5rem;
     
     width: 200px;
     height: 56px;
     
-    #white-button {
-        background-color: var(--background);
-        color: var(--text-heading);
-    }
+    cursor: pointer;
 }

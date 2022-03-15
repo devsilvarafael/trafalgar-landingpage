@@ -11,7 +11,6 @@ export const Heading = ({ title, description }: IHeading) => {
       <div className={styles.mainHeading}>
         <h1>{title}</h1>
         <p>{description}</p>
-        <Button text="Consult today" />
       </div>
     </div>
   );

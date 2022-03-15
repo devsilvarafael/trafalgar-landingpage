@@ -27,7 +27,7 @@ export const Services = (): JSX.Element => {
             </div>
           ))}
         </div>
-        <Button text="Learn more" />
+        <Button text="Learn more" colorBg="#f8f8f8" colorTx="#458FF6" />
       </div>
     </section>
   );
