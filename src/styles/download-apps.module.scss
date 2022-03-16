@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    
+    img {
+        margin-left: 4.4rem;
+    }
+    
+    .content {
+        align-items: center;
+        
+        p {
+            margin-bottom: 2rem;
+        }
+    
+        
+        span {
+            margin-right: 0.9rem;
+        }
+    }
+
+}

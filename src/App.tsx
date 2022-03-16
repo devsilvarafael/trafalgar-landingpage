@@ -1,5 +1,6 @@
 
 import { Heading } from "./components/Commons/Heading";
+import { DownloadApps } from "./components/Sections/DownloadApps";
 import { Header } from "./components/Sections/Header";
 import { Providers } from "./components/Sections/Providers";
 import { Services } from "./components/Sections/Services";
@@ -14,6 +15,7 @@ function App() {
       <VirtualHealth />
       <Services />
       <Providers />
+      <DownloadApps />
     </div>
   );
 }

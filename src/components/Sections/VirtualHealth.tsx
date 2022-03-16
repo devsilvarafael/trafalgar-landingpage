@@ -14,7 +14,9 @@ export const VirtualHealth = (): JSX.Element => {
           description="Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone"
         />
 
-        <Button text="Consult today" colorBg="#458FF6" colorTx="#fff" />
+        <Button colorBg="#458FF6" colorTx="#ffffff">
+          Consult today
+        </Button>
       </div>
 
       <img src={illustration} alt="Virtual health" />

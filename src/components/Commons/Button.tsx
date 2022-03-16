@@ -1,14 +1,14 @@
 import styles from "../../styles/Commons/button.module.scss";
-import React from "react";
+import React, { ReactNode } from "react";
 
 interface ButtonProps {
-  text: string;
   colorBg: string;
   colorTx: string;
+  children?: ReactNode;
 }
 
 export const Button = ({
-  text,
+  children,
   colorBg,
   colorTx,
 }: ButtonProps): JSX.Element => {
@@ -17,7 +17,7 @@ export const Button = ({
       className={styles.btn}
       style={{ background: colorBg, color: colorTx }}
     >
-      {text}
+      {children}
     </button>
   );
 };
