@@ -1,3 +1,12 @@
+# About the Project
+This project was created for learning purpose, using TypeScript and SCSS to build a landing page.
+
+Mobile design it's not available yet.
+
+<img src="public/screen-1.png" alt="print"> 
+<img src="public/screen-2.png" alt="print 2">
+<img src="public/screen-3.png" alt="print 3">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
