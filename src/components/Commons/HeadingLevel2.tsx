@@ -3,7 +3,7 @@ import { Divider } from './Divider';
 
 interface Props {
   title: string;
-  description: string;
+  description?: string;
 }
 
 export const HeadingLevel2 = ({ title, description }: Props): JSX.Element => {

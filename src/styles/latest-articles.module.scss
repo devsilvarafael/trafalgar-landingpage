@@ -1,0 +1,64 @@
+.allContent {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 12.62rem;
+}
+
+#heading {
+    margin-top: 13.93rem;
+    width: 100%;
+    text-align: center;
+}
+
+.contentGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 4.5rem 0 4.31rem 2rem;
+    
+    .articleCard {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 100%;
+        border-radius: 1.5rem;
+        overflow: hidden;
+        background-color: #fff;
+        margin-right: 2.12rem;
+        
+        img {
+            object-fit: contain;
+        }
+    }
+    
+    .articleDescription {
+        margin: 1.31rem 4.12rem 2.18rem 2.06rem;
+        
+        h1 {
+            line-height: 2rem;
+            font-size: 1.31rem;
+        }
+        
+        p {
+            margin-top: 0.5rem;
+            margin-bottom: 1.56rem;
+            line-height: 1.75rem;
+            
+            color: var(--text-secondary);
+        }
+        
+        button {
+            border: 0;
+            background: none;
+            font-size: 1.05rem;
+            color: var(--blue);
+            font-weight: 600;
+            
+            svg {
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+
